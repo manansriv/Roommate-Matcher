@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Roommate</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <section class="match-form fade-in">
+        <h2>Find Your Perfect Roommate</h2>
+        <form id="matchForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <select id="personality">
+                <option value="">Select Personality</option>
+                <option value="Introvert">Introvert</option>
+                <option value="Extrovert">Extrovert</option>
+                <option value="Ambivert">Ambivert</option>
+            </select>
+            <button type="submit" class="cta-btn">Find Match</button>
+        </form>
+    </section>
+    <script src="scripts/matching.js"></script>
+</body>
+</html>
